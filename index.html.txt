@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Humanizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI to Human Text Converter</h1>
+        <div class="box-container">
+            <textarea id="inputText" placeholder="AI টেক্সট এখানে পেস্ট করুন..."></textarea>
+            <textarea id="outputText" placeholder="হিউম্যানাইজড টেক্সট এখানে আসবে..." readonly></textarea>
+        </div>
+        <button onclick="humanizeText()">Humanize Now ✨</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
